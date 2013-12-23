@@ -150,11 +150,7 @@ PRODUCT_COPY_FILES += \
 # Copy JNI libarary of Term
 PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
-    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
-    vendor/cm/prebuilt/hololauncherhd/HoloLauncherHD.apk:system/app/HoloLauncherHD.apk \
-    vendor/cm/prebuilt/ATweakerFree.apk:system/app/ATweakerFree.apk \
-    vendor/cm/prebuilt/GooManager.apk:system/app/GooManager.apk \
-    vendor/cm/prebuilt/Nova.apk:system/app/Nova.apk
+    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
@@ -311,10 +307,7 @@ CM_VERSION := BeanStalk-$(Bean_Version)-$(shell date -u +%Y%m%d)$(CM_EXTRAVERSIO
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.cm.version=$(CM_VERSION) \
-  ro.modversion=$(CM_VERSION) \
-  ro.goo.developerid=beanstalk \
-  ro.goo.rom=$(CM_BUILD) \
-  ro.goo.version=11
+  ro.modversion=$(CM_VERSION)
 
 -include vendor/cm-priv/keys/keys.mk
 
