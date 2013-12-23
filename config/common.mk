@@ -198,11 +198,9 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
-    BeanStalkPapers \
-    Apollo \
     LockClock \
     DashClock \
-    StalkExplorer
+    CMFileManager
 
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver
