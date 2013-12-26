@@ -234,6 +234,10 @@ PRODUCT_PACKAGES += \
     sqlite3 \
     strace
 
+# Copy phoneloc files
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/media/mokee-phoneloc.dat:system/media/mokee-phoneloc.dat
+
 # Openssh
 PRODUCT_PACKAGES += \
     scp \
