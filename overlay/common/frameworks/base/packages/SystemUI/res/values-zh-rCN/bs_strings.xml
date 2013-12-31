@@ -17,19 +17,19 @@
     <string name="service_used_mem"><xliff:g id="memory">%1$s</xliff:g> 已用</string>
 
     <!-- Screenrecord Notification Ticker -->
-    <string name="screenrecord_notif_ticker">录制屏幕中</string>
+    <!--<string name="screenrecord_notif_ticker">录制屏幕中</string>-->
 
     <!-- Screenrecord notification title -->
-    <string name="screenrecord_notif_title">录制屏幕</string>
+    <!--<string name="screenrecord_notif_title">录制屏幕</string>-->
 
     <!-- Screenrecord notification action: Stop -->
-    <string name="screenrecord_notif_stop">停止</string>
+    <!--<string name="screenrecord_notif_stop">停止</string>-->
 
     <!-- Screenrecord notification action: Toggle pointer -->
-    <string name="screenrecord_notif_pointer">显示指针</string>
+    <!--<string name="screenrecord_notif_pointer">显示指针</string>-->
 
     <!-- Screen record notification error title -->
-    <string name="screenrecord_notif_error">不能录制屏幕</string>
+    <!--<string name="screenrecord_notif_error">不能录制屏幕</string>-->
 
     <!-- Content description of the halo button in the notification panel for accessibility (not sho
          wn on the screen). [CHAR LIMIT=NONE] -->	
