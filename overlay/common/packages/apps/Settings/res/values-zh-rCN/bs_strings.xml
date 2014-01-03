@@ -41,6 +41,9 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">设置</string>
 
+    <!-- WiFi forget all networks -->
+    <string name="wifi_menu_forget_all">取消保存所有网络</string>
+
     <!-- Status bar -->
     <string name="status_bar_title">状态栏</string>
     <string name="status_bar_style_title">状态栏选项</string>
@@ -77,7 +80,7 @@
     <string name="clock_date_style_normal">正常</string>
     <string name="clock_date_style_lowercase">小楷</string>
     <string name="clock_date_style_uppercase">大楷</string>
-    <string name="custom_java_format">自定义 Java 符串</string>
+    <string name="clock_date_format_custom">自定义 Java 符串</string>
     <string name="status_bar_clock_style_reset_message">重置时钟色彩？</string>
 
     <!-- Notification Drawer Settings -->
@@ -985,5 +988,8 @@
     <string name="privacy_guard_app_ops_detail_reset_dialog_text">重置所有权限设置？</string>
     <string name="app_ops_btn_text">修改</string>
     <string name="app_ops_no_item_text">这个程序没有任可能可供修改的权限.</string>
+
+    <string name="mod_version">BeanStalkKang 版本</string>
+
 
 </resources>
