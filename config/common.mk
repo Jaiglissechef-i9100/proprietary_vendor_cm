@@ -135,11 +135,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.local.rc:root/init.cm.rc
 
-# Compcache/Zram support
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/bin/compcache:system/bin/compcache \
-    vendor/cm/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
-
 # Copy JNI libarary of Term
 PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
@@ -193,6 +188,7 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     ScreenRecorder \
     libscreenrecorder \
+    MonthCalendarWidget \
     LockClock \
     DashClock \
     CMFileManager
@@ -299,7 +295,7 @@ else
     CM_EXTRAVERSION :=
 endif
 
-Bean_Version=4.4.205
+Bean_Version=4.4.215
 CM_VERSION := BeanStalkKang-$(Bean_Version)-$(CM_BUILD)-aikons-$(DATE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
