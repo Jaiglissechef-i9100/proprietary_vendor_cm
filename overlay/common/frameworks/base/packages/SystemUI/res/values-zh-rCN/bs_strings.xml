@@ -53,14 +53,24 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
 
+    <!-- Off/On/Toggle -->
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="toggle">Toggle</string>
+
+    <!-- BeanStalk Shortcut Actions -->
     <string name="shortcut_immersive">全屏模式开关</string>
     <string name="shortcut_quiethours">安静时段开关</string>
     <string name="shortcut_rotation">旋转锁定开关</string>
     <string name="shortcut_torch">手电筒开关</string>
     <string name="shortcut_reboot">重启 (立即)</string>
+    <string name="shortcut_recovery">恢复模式</string>
     <string name="shortcut_last_app">最后应用</string>
+    <string name="shortcut_power_menu">电源键菜单</string>
     <string name="shortcut_screenshot">屏幕截图</string>
-    <string name="shortcut_screensleep">Sleep Screen</string>
+    <string name="shortcut_screensleep">休眠</string>
+    <string name="shortcut_volume">音量</string>
+    <string name="shortcut_toggle_title">Action to perform</string>
     <string name="shortcut_chamber">Chamber of Secrets</string>
     <string name="chamber_disabled">Chamber of secrets is closed</string>
     <string name="chamber_title">Input Settings string</string>
@@ -70,6 +80,9 @@
     <string name="chamber_chk_message">Is this setting a checkbox setting?</string>
     <string name="chamber_int">Input values</string>
     <string name="chamber_int_message">Input the values you\'d like the setting to toggle between. Separate each value with a comma. Color settings accept hex-values such as #FF00aacc or basic color values like red, green, and yellow.</string>
+    <string name="chamber_name_title">Shortcut name</string>
+    <string name="chamber_name_message">Give the shortcut a name to display with the icon.</string>
+    <string name="chamber_name_toast">Using default name</string>
 
     <!-- Quick Settings -->
     <string name="quick_settings_gps">GPS</string>
@@ -118,8 +131,10 @@
     <string name="quick_settings_quick_record_rec">录制中...</string>
     <string name="quick_settings_quick_record_save">已储存</string>
     <string name="quick_settings_quick_record_play">播放中...</string>
+    <string name="quick_settings_custom_toggle">自定义</string>
 
     <!-- Label in drop down to identify brightness slider -->
-    <string name="brightness_label">Brightness</string>
-    <string name="powerwidget_screen_timeout_never_toast">Screen set to always on</string>
+    <string name="brightness_label">亮度</string>
+    <string name="powerwidget_screen_timeout_never_toast">屏幕设为常亮</string>
+
 </resources>

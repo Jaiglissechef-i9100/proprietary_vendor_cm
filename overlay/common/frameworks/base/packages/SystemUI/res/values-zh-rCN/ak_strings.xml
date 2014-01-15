@@ -3,13 +3,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Title shown in notification popup for launching notification in floating mode -->
-    <string name="status_bar_notification_floating_item_title">Floating mode</string>
-    <string name="status_bar_recent_floating_item_title">Floating mode</string>
+    <string name="status_bar_notification_floating_item_title">悬浮窗模式</string>
+    <string name="status_bar_recent_floating_item_title">悬浮窗模式</string>
 
     <!-- PA PIE -->
-    <string name="pie_date_format">ccc, dd MMM yyyy</string>
-    <string name="pie_hour_format_12">hh:mm</string>
-    <string name="pie_hour_format_24">HH:mm</string>
-    <string name="pie_am_pm">a</string>
+    <string name="pie_date_format">y年M月d日 ccc</string>
 
 </resources>

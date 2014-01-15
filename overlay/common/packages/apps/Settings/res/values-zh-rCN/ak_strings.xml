@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Privacy Guard -->
+    <string name="app_security_title">应用程序安全</string>
+    <string name="privacy_guard_dlg_title">启用隐私防护？</string>
+    <string name="privacy_guard_dlg_text">当隐私防护启用后,应用将不能再访问个人数据,如联系人,信息或者通话记录.</string>
+    <string name="privacy_guard_dlg_system_app_text">对内置应用启用隐私防护后,应用将不能访问或提供个人数据,这将可能导致其它应用出现不规则.</string>
+    <string name="privacy_guard_default_title">默认启用</string>
+    <string name="privacy_guard_default_summary">为新安装的应用默认启用</string>
+    <string name="privacy_guard_notification_title">通知</string>
+    <string name="privacy_guard_notifiation_summary">隐私防护激活时显示通知</string>
+    <string name="privacy_guard_manager_title">隐私防护</string>
+    <string name="privacy_guard_manager_summary">管理哪些应用可以访问您的个人数据</string>
+    <string name="privacy_guard_no_user_apps">没有安装任何应用</string>
+    <string name="privacy_guard_filter_does_not_match">没有安装含有相关敏感权限的应用</string>
+    <string name="privacy_guard_help_text">在此屏幕中,只要轻点一下,您就可以选择哪些应用应该启用隐私防护,选择的应用将不能再访问您的个人数据,如联系人,信息或者通话记录.长按其中一条项目查看该应用的详细信息.\n\n默认情况下内置应用将不会被显示.如果您要显示他们或者要过滤出通过对应权限要求访问个人数据的应用,请在菜单中调整其各自的设置.</string>
+    <string name="privacy_guard_manager_show_system_apps">显示内置应用</string>
+    <string name="privacy_guard_manager_filter_permissions">权限过滤器</string>
+    <string name="privacy_guard_app_ops_detail_dialog_title">注意</string>
+    <string name="privacy_guard_app_ops_detail_dialog_text">选定的程序本身没有要求隐私信息，你是否确定需要修改其它权限？</string>
+    <string name="privacy_guard_app_ops_detail_reset_dialog_text">重置所有权限设置？</string>
+    <string name="app_ops_btn_text">修改</string>
+    <string name="app_ops_no_item_text">这个程序没有任可能可供修改的权限。</string>
+
+    <string name="mod_version">BeanStalkKang 版本</string>
    
     <!-- About device screen, Hardware info -->
     <string name="hardware_info">硬件信息</string>
@@ -27,15 +51,15 @@
 
     <!-- Pie controls -->
     <string name="pie_help_title">帮助</string>
-    <string name="pie_help_text"><b>PA/Xylon跟Slim版本的PIE有什么分别?</b>" 
+    <string name="pie_help_text"><b>PA/Xylon 跟Slim 版本的 Pie 有什么分别？</b>" 
 
- PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按键功能. Slim 版本则具备更多设置且能够完全胜任导航栏的替补. 
+ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按键功能。Slim 版本则具备更多设置且能够完全胜任导航栏的替补。
 
 
  "</string>
-    <string name="slimpie_title">Slim PIE</string>
+    <string name="slimpie_title">Slim Pie</string>
     <string name="slimpie_summary">Slim 版本可作为导航栏用途，含多种自定义设定.</string>
-    <string name="pie_title">Paranoid PIE</string>
+    <string name="pie_title">Paranoid Pie</string>
     <string name="pie_summary">全屏助手，简洁美观</string>
     <string name="general_ui">一般设定</string>
     <string name="buttons_layout_title">按键布局</string>
@@ -96,11 +120,11 @@
     <string name="pie_notifications_summary">当左右滑动 Pie 外轮廓时将启动磁贴面板或通知栏通知</string>
 
     <!-- Pie Color Settings -->
-    <string name="pie_color_title">Pie color settings</string>
+    <string name="pie_color_title">Pie 颜色设置</string>
     <string name="pie_button_color_title">Pie 按键颜色</string>
     <string name="pie_color_style_title">Pie 颜色风格</string>
     <string name="pie_background_title">背景颜色</string>
-    <string name="pie_select_title">Selection color</string>
+    <string name="pie_select_title">选择颜色</string>
     <string name="pie_outlines_title">框线颜色</string>
     <string name="pie_status_clock_title">时钟颜色</string>
     <string name="pie_status_title">状态栏颜色</string>
