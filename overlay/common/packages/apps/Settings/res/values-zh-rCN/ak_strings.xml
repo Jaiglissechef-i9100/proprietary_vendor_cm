@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+   
+    <!-- About device screen, Hardware info -->
+    <string name="hardware_info">硬件信息</string>
+    <string name="cpu_info">CPU</string>
+    <string name="gpu_info">GPU</string>
+    <string name="chipset_info">芯片组</string>
+    <string name="mem_info">内存</string>
+    <string name="device_rear_camera">后置摄像头</string>
+    <string name="device_front_camera">前置摄像头</string>
+    <string name="device_screen_resolution">屏幕分辨率</string>
+
+    <!-- Halo -->
+    <string name="halo_settings_summary">以悬浮窗口来启动应用程序的另一种通知界面</string>
+    <string name="halo_colors">启用自定义颜色</string>
+    <string name="halo_circle_color">圆环颜色</string>
+    <string name="halo_effect_color">动画效果颜色</string>
+    <string name="halo_notif_title_color">通知标题颜色</string>
+    <string name="halo_notif_desc_color">通知说明颜色</string>
+    <string name="halo_speech_bubble_color">消息气泡颜色</string>
+    <string name="halo_text_color">文字颜色</string>
+    <string name="halo_color_category_title">自定义颜色设置</string>
+    <string name="halo_switch_toast">需要重启系统用户界面</string>
+    <string name="halo_main">常规</string>
+    <string name="halo_appearance">样式</string>
+
+    <!-- Pie controls -->
+    <string name="pie_help_title">帮助</string>
+    <string name="pie_help_text"><b>PA/Xylon跟Slim版本的PIE有什么分别?</b>" 
+
+ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按键功能. Slim 版本则具备更多设置且能够完全胜任导航栏的替补. 
+
+
+ "</string>
+    <string name="slimpie_title">Slim PIE</string>
+    <string name="slimpie_summary">Slim 版本可作为导航栏用途，含多种自定义设定.</string>
+    <string name="pie_title">Paranoid PIE</string>
+    <string name="pie_summary">全屏助手，简洁美观</string>
+    <string name="general_ui">一般设定</string>
+    <string name="buttons_layout_title">按键布局</string>
+
+    <string name="pa_pie_controls_title">Pie 面版</string>
+    <string name="pa_pie_controls_summary">提供虚拟键及信息面版(在全屏模式使用)</string>
+    <string name="pie_gravity_title">Pie 位置</string>
+    <string name="pie_gravity_summary">选择 Pie 在屏幕上呼出的位置</string>
+    <string name="pie_gravity_top">屏幕顶部</string>
+    <string name="pie_gravity_bottom">屏幕底部</string>
+    <string name="pie_gravity_right">屏幕右侧</string>
+    <string name="pie_gravity_left">屏幕左侧</string>
+    <string name="pie_mode_title">Pie 风格</string>
+    <string name="pie_mode_summary">管理 Pie 切换动画和显示状态</string>
+    <string name="pie_mode_bare">简洁</string>
+    <string name="pie_mode_quick">快速</string>
+    <string name="pie_mode_default">正常（默认）</string>
+    <string name="pie_mode_slow">慢速</string>
+    <string name="pie_size_title">Pie 尺寸</string>
+    <string name="pie_size_summary">调整 Pie 在屏幕上呼出的尺寸</string>
+    <string name="pie_size_small">小尺寸</string>
+    <string name="pie_size_default">正常（默认）</string>
+    <string name="pie_size_large">大尺寸</string>
+    <string name="pie_size_gigantic">超大尺寸</string>
+
+    <string name="pie_angle_title">Pie 角度</string>
+    <string name="pie_angle_summary">调整屏幕边缘与 Pie 之间的夹角</string>
+    <string name="pie_angle_none">无</string>
+    <string name="pie_angle_small">小</string>
+    <string name="pie_angle_big">正常（默认）</string>
+    <string name="pie_angle_huge">大</string>
+
+    <string name="pie_menu_title">菜单键</string>
+    <string name="pie_menu_summary">显示菜单键</string>
+    <string name="pie_search_title">搜索键</string>
+    <string name="pie_search_summary">显示搜索键</string>
+    <string name="pie_lastapp_title">程序切换键</string>
+    <string name="pie_lastapp_summary">显示切换至最后运行的程序键</string>
+    <string name="pie_power_title">电源键</string>
+    <string name="pie_power_summary">显示电源键</string>
+    <string name="pie_killtask_title">结束程序键</string>
+    <string name="pie_killtask_summary">显示结束程序键</string>
+    <string name="pie_actnotif_title">显示通知栏键</string>
+    <string name="pie_actnotif_summary">在 Pie 上显示通知栏键</string>
+    <string name="pie_actqs_title">显示磁贴快捷栏键</string>
+    <string name="pie_actqs_summary">在 Pie 上显示磁贴快捷栏键</string>
+    <string name="pie_appwindow_title">应用程序窗口键</string>
+    <string name="pie_appwindow_summary">显示应用程序窗口键（在 ROM控制 - 操作区 中设置）</string>
+    <string name="pie_screenshot_title">显示截屏键</string>
+    <string name="pie_screenshot_summary">在 Pie 上显示截屏键</string>
+    <string name="pie_center_title">Pie 中心</string>
+    <string name="pie_center_summary">在触发侧 Pie 显示在屏幕中心</string>
+    <string name="pie_stick_title">Pie 旋转</string>
+    <string name="pie_stick_summary">保持 Pie 任何取向时都显示在原位置</string>
+    <string name="pie_restart_launcher_title">重新载入启动器</string>
+    <string name="pie_restart_launcher_summary">防止产生一些有关启动器的 bug（推荐选中）</string>
+    <string name="pie_notifications_title">Pie 滑动</string>
+    <string name="pie_notifications_summary">当左右滑动 Pie 外轮廓时将启动磁贴面板或通知栏通知</string>
+
+    <!-- Pie Color Settings -->
+    <string name="pie_color_title">Pie color settings</string>
+    <string name="pie_button_color_title">Pie 按键颜色</string>
+    <string name="pie_color_style_title">Pie 颜色风格</string>
+    <string name="pie_background_title">背景颜色</string>
+    <string name="pie_select_title">Selection color</string>
+    <string name="pie_outlines_title">框线颜色</string>
+    <string name="pie_status_clock_title">时钟颜色</string>
+    <string name="pie_status_title">状态栏颜色</string>
+    <string name="pie_chevron_left_title">左外环颜色</string>
+    <string name="pie_chevron_right_title">右外环颜色</string>
+    <string name="all_color">自定义颜色</string>
+    <string name="stock_color">预置颜色</string>
+    <string name="pie_juice_title">电量颜色</string>
+
+    <!-- Pie Gap-->
+    <string name="pie_gap_title">Pie 间距</string>
+    <string name="pie_gap_summary">设置 Pie 按键之间的间距</string>
+    <string name="pie_gap_closed">无</string>
+    <string name="pie_gap_small">小（默认）</string>
+    <string name="pie_gap_big">大</string>
+    <string name="pie_gap_huge">超大</string>
+    <string name="pie_trigger_title">Pie 区域</string>
+    <string name="pie_trigger_summary">测定及修改 Pie 触发区域大小</string>
+    <string name="pie_trigger_small">小型</string>
+    <string name="pie_trigger_normal">正常（默认）</string>
+    <string name="pie_trigger_big">大型</string>
+    <string name="pie_trigger_huge">巨型</string>
+
+    <!-- show network speed (Thinking Bridge) -->
+    <string name="show_network_speed_title">状态栏网速 (Thinking Bridge)</string>
+    <string name="show_network_speed_summary">在状态栏显示当前网速 (Thinking Bridge)</string>
+    <string name="status_bar_traffic_style_hidden">隐藏</string>
+    <string name="status_bar_traffic_style_rx">仅显示下载速度</string>
+    <string name="status_bar_traffic_style_rxtx">显示上传和下载速度</string>
+
+</resources>

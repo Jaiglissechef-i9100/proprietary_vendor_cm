@@ -75,6 +75,14 @@
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_interceptSmsSent">允许应用拦截传出的短信。恶意应用可使用此权限来阻挡传出短信。</string>
 
+   <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_recordScreen">屏幕录像</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_recordScreen">允许应用程序进行屏幕录像。</string>
+
+    <!-- label for screen record item in phone options dialog -->
+    <string name="global_action_screenrecord">屏幕录像</string>
+
     <!-- Privacy Guard -->
     <string name="permlab_changePrivacyGuardState">启用或禁用隐私防护</string>
     <string name="permdesc_changePrivacyGuardState">允许应用更改其他应用是否启用隐私防护。当一个应用程序运行时启用了隐私防护, 它将不能访问个人数据, 如联系人, 通话记录或者短信。</string>

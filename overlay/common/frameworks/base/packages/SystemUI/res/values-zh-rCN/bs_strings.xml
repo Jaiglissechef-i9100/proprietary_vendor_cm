@@ -16,30 +16,18 @@
     <!-- [CHAR LIMIT=10] Running services, summary of foreground processes -->
     <string name="service_used_mem"><xliff:g id="memory">%1$s</xliff:g> 已用</string>
 
-    <!-- Screenrecord Notification Ticker -->
-    <!--<string name="screenrecord_notif_ticker">录制屏幕中</string>-->
-
-    <!-- Screenrecord notification title -->
-    <!--<string name="screenrecord_notif_title">录制屏幕</string>-->
-
-    <!-- Screenrecord notification action: Stop -->
-    <!--<string name="screenrecord_notif_stop">停止</string>-->
-
-    <!-- Screenrecord notification action: Toggle pointer -->
-    <!--<string name="screenrecord_notif_pointer">显示指针</string>-->
-
-    <!-- Screen record notification error title -->
-    <!--<string name="screenrecord_notif_error">不能录制屏幕</string>-->
+    <!-- Screenshot -->
+    <string name="screenshot_delete_confirmation">截图已删除</string>
 
     <!-- Content description of the halo button in the notification panel for accessibility (not sho
          wn on the screen). [CHAR LIMIT=NONE] -->	
-    <string name="accessibility_halo">创建 Halo 通知。</string>	
+    <string name="accessibility_halo">创建 Halo 通知</string>	
 				
     <!-- HALO -->
     <string name="halo_dismiss">清除通知</string>	
     <string name="halo_hide">隐藏</string>	
     <string name="halo_clear_all">清除全部通知</string>	
-    <string name="halo_silence">隐藏并静默，直到唤醒</string>	
+    <string name="halo_silence">隐藏并静默直到唤醒</string>	
     <string name="halo_tutorial1">我是 HALO</string>	
     <string name="halo_tutorial2">双击并按住拖动来更换位置</string>	
     <string name="halo_tutorial3">单击并拖动来切换程序</string>	
@@ -58,6 +46,13 @@
 
     <!-- BeanStalk Shortcut Actions -->
     <string name="shortcut_picker">BeanStalk 快捷方式</string>
+
+    <!-- Dialog Cancel/OK -->
+    <string name="cancel">Cancel</string>
+    <string name="dlg_ok">Ok</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
     <string name="shortcut_immersive">全屏模式开关</string>
     <string name="shortcut_quiethours">安静时段开关</string>
     <string name="shortcut_rotation">旋转锁定开关</string>
@@ -65,6 +60,16 @@
     <string name="shortcut_reboot">重启 (立即)</string>
     <string name="shortcut_last_app">最后应用</string>
     <string name="shortcut_screenshot">屏幕截图</string>
+    <string name="shortcut_screensleep">Sleep Screen</string>
+    <string name="shortcut_chamber">Chamber of Secrets</string>
+    <string name="chamber_disabled">Chamber of secrets is closed</string>
+    <string name="chamber_title">Input Settings string</string>
+    <string name="chamber_message">Input a Settings string that is either an on and off (checkbox) function or possibly a list-preference. For example, quiet_hours_ringer or similar. Settings can be found in the Settings.java file. WARNING: This process is dangerous!</string>
+    <string name="chamber_invalid">This is an invalid input. Be careful.</string>
+    <string name="chamber_checkbox">Checkbox</string>
+    <string name="chamber_chk_message">Is this setting a checkbox setting?</string>
+    <string name="chamber_int">Input values</string>
+    <string name="chamber_int_message">Input the values you\'d like the setting to toggle between. Separate each value with a comma. Color settings accept hex-values such as #FF00aacc or basic color values like red, green, and yellow.</string>
 
     <!-- Quick Settings -->
     <string name="quick_settings_gps">GPS</string>
@@ -108,4 +113,13 @@
 
     <string name="accessibility_data_connection_HP">HSPA+</string>
 
+    <string name="quick_settings_quick_record_nofile">长按</string>
+    <string name="quick_settings_quick_record_def">一键录音</string>
+    <string name="quick_settings_quick_record_rec">录制中...</string>
+    <string name="quick_settings_quick_record_save">已储存</string>
+    <string name="quick_settings_quick_record_play">播放中...</string>
+
+    <!-- Label in drop down to identify brightness slider -->
+    <string name="brightness_label">Brightness</string>
+    <string name="powerwidget_screen_timeout_never_toast">Screen set to always on</string>
 </resources>
