@@ -182,6 +182,7 @@ PRODUCT_PACKAGES += \
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
+    alogcat \
     Launcher3 \
     DSPManager \
     libcyanogen-dsp \
