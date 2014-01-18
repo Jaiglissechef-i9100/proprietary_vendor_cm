@@ -135,11 +135,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.local.rc:root/init.cm.rc
 
-# Copy JNI libarary of Term
-PRODUCT_COPY_FILES +=  \
-    vendor/cm/proprietary/Term.apk:system/app/Term.apk \
-    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
-
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
     vendor/cm/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
