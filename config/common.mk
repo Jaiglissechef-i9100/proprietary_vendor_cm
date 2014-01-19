@@ -293,7 +293,7 @@ else
 endif
 
 Bean_Version=4.4.215
-CM_VERSION := BeanStalkKang-$(Bean_Version)-$(CM_BUILD)-aikons-$(DATE)
+CM_VERSION := 7comp-$(CM_BUILD)-kk-Jaiglissechef-$(DATE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.cm.version=$(CM_VERSION) \
