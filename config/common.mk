@@ -226,6 +226,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/media/mokee-phoneloc.dat:system/media/mokee-phoneloc.dat
 
+# Terminal Emulator
+PRODUCT_COPY_FILES += \
+    vendor/cm/proprietary/Term.apk:system/app/Term.apk \
+    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
+
 # Openssh
 PRODUCT_PACKAGES += \
     scp \
