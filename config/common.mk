@@ -137,7 +137,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     alogcat \
     Apollo \
-    Launcher3 \
+    HALO \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
@@ -188,6 +188,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
     vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
+    
+# KKLauncher
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/app/KK_Launcher_v2.95.apk:system/app/KK_Launcher_v2.95.apk
 
 # Openssh
 PRODUCT_PACKAGES += \
