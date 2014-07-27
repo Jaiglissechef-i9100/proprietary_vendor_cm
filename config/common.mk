@@ -32,7 +32,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1 \
-    persist.sys.root_access=1
+    persist.sys.root_access=1 \
+    persist.sys.dun.override=0
 
 # Backup Tool
 ifneq ($(WITH_GMS),true)
@@ -266,7 +267,7 @@ else
 endif
 
 Bean_Version=4.4.215
-CM_VERSION := 7comp-$(CM_BUILD)-kk-Jaiglissechef-$(DATE)
+CM_VERSION := 7comp-$(CM_BUILD)-4.4.4-Jaiglissechef-$(DATE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.cm.version=$(CM_VERSION) \
