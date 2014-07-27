@@ -145,7 +145,13 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     ScreenRecorder \
     libscreenrecorder \
+<<<<<<< HEAD
+=======
+    BeanStalkPapers \
+    BeanStalkOTA \
     EOSWeather \
+    Apollo \
+>>>>>>> e482af5... add eosweather package
     MonthCalendarWidget \
     LockClock \
     DashClock \
