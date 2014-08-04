@@ -144,7 +144,9 @@ PRODUCT_PACKAGES += \
     MonthCalendarWidget \
     LockClock \
     DashClock \
-    CMFileManager
+    CMFileManager \
+    GPSOptimizer \
+    AndroidKernelTweaker
 
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver
