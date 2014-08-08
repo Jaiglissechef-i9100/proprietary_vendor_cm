@@ -135,9 +135,6 @@ PRODUCT_PACKAGES += \
     alogcat \
     Apollo \
     HALO \
-    DSPManager \
-    libcyanogen-dsp \
-    audio_effects.conf \
     ScreenRecorder \
     libscreenrecorder \
     EOSWeather \
@@ -146,7 +143,8 @@ PRODUCT_PACKAGES += \
     DashClock \
     CMFileManager \
     GPSOptimizer \
-    AndroidKernelTweaker
+    AndroidKernelTweaker \
+    OmniSwitch
 
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver
@@ -189,6 +187,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
     vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
+
+# GoogleTTS
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
+    vendor/cm/prebuilt/common/etc/viper/ViPER4Android.apk:system/app/ViPER4Android.apk
     
 # KKLauncher
 PRODUCT_COPY_FILES += \
