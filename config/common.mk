@@ -192,6 +192,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     vendor/cm/prebuilt/common/etc/viper/ViPER4Android.apk:system/app/ViPER4Android.apk
+
+# Copy latinime for gesture typing
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
     
 # KKLauncher
 PRODUCT_COPY_FILES += \
